@@ -1,0 +1,437 @@
+# CustomEnchants by Peaches_MLG
+Options:
+# Do you want the plugin to automatically update?
+# Requires MVDWUpdater
+  Update: true
+# Prefix of all the messages
+  Prefix: '&c&lCustomEnchants &7>>'
+# Gui title
+  Title: '&c&lCustomEnchants'
+# Do you want a gui where you can buy enchants?
+  TierGUI: true
+# Gui Configuration
+  TierAmount: 3
+# What slot do you want each tier to be in
+  Tier1Slot: 12
+  Tier2Slot: 14
+  Tier3Slot: 16
+# How much will each tier cost?
+  Tier1Cost: 20
+  Tier2Cost: 40
+  Tier3Cost: 60
+# What item do you want each Tier to be
+  Tier1Item: ENCHANTED_BOOK
+  Tier1Meta: 0
+  Tier2Item: ENCHANTED_BOOK
+  Tier2Meta: 0
+  Tier3Item: ENCHANTED_BOOK
+  Tier3Meta: 0
+  GkitsBackgroundItem: STAINED_GLASS_PANE
+  GkitsBackgroundMeta: 7
+  # Amount of xp required to use Enderforged ability
+  EnderForgedXP: 20
+  # Amount of xp required to use Stealth ability
+  StealthXP: 20
+# What do you want each item to be called?
+  Tier1Name: '&b&lBasic Tier'
+  Tier2Name: '&5&lEpic Tier'
+  Tier3Name: '&6&lLegendery Tier'
+# What do you want the lore format to be?
+  Tier1LoreFormat: '&b'
+  Tier2LoreFormat: '&5'
+  Tier3LoreFormat: '&6'
+# Do you want the item to have a glow effect?
+  Tier1Glow: true
+  Tier2Glow: true
+  Tier3Glow: true
+# Format for the cost
+  TierCostFormat: '&cCost: &4&l%Cost%XP'
+  EnchantCrystalItem: NETHER_STAR
+  EnchantCrystalLore:
+  - '&7&lRight Click The Crystal to Use it'
+  - '&7&l%Description%'
+# How do you want the players to pay for the enchants? (XpLevels Xp Vault)
+  Payment: XpLevels
+# When using an infusion do you want it to call an event to all other plugins, this will be useful for plugins such as McMMO or anti grief plugins. but can also make anticheats falseban for nuke(Unless your anticheat is supported)
+  UseBlockBreakEvent: true
+# Format for the Crystal
+  CrystalNameFormat: '&c&l&n'
+  CrystalLoreFormat: '&7&l'
+# What is the Maximum amount of enchants alloued on one item
+  MaxEnchants: 4
+# next page and previous page for the /ce list gui
+  NextPage: '&a&lNext Page'
+  PreviousPage: '&c&lPrevious Page'
+# What do you want the amount of hearts a player gets to be, deafault = 20
+  DefaultHearts: 20
+# What Items do you want to be in each tier?
+Tiers:
+  Tier1:
+  - SpeedI
+  - JumpI
+  - DecapitateI
+  - VisionaryI
+  - NetherSkinI
+  - ReplenishI
+  - LifestealI
+  - AquaticI
+  - FuryI
+  - HardenedI
+  - JacketI
+  - PenetrateI
+  - EvadeI
+  - EnlightenedI
+  - CookI
+  - CatchI
+  - WardenI
+  - StealthI
+  - ThunderusBlowI
+  Tier2:
+  - BlazingTouchI
+  - SpeedII
+  - JumpII
+  - MultishotI
+  - InfusionI
+  - IgnitionI
+  - WitherI
+  - HasteI
+  - LifestealII
+  - JacketII
+  - CursedI
+  - AssassinateI
+  - HulkI
+  - CoinsI
+  - FuryII
+  - HardenedII
+  - PenetrateII
+  - EvadeII
+  - WingsI
+  - SaviorI
+  - LeaderI
+  - ResistanceI
+  - EnlightenedII
+  - CatchII
+  - FrostbiteI
+  - HeadshotI
+  - WardenII
+  - EnderforgedII
+  - EnderforgedI
+  - StealthII
+  Tier3:
+  - MultishotII
+  - InfusionII
+  - WitherII
+  - HasteII
+  - JacketIII
+  - InquisitiveI
+  - InquisitiveII
+  - CursedII
+  - FrostyI
+  - FlareI
+  - AssassinateII
+  - HulkII
+  - CoinsII
+  - FuryIII
+  - HardenedIII
+  - PenetrateIII
+  - EvadeIII
+  - SaviorII
+  - LeaderII
+  - ResistanceII
+  - EnlightenedIII
+  - FrostbiteII
+  - HeadshotII
+  - WardenIII
+  - EnderforgedIII
+  - StealthIII
+Chances:
+# Chances for each enchant to activate
+  IgnitionI: 10
+  ParalyzeI: 10
+  ParalyzeII: 10
+  BlindnessI: 10
+  BlindnessII: 10
+  PoisonI: 10
+  PoisonII: 10
+  WitherI: 10
+  WitherII: 10
+  NauseaI: 10
+  SlownessI: 10
+  SlownessII: 10
+  LifestealI: 10
+  LifestealII: 10
+  FlareI: 10
+  CursedI: 10
+  CursedII: 10
+  CoinsI: 10
+  CoinsII: 10
+  EvadeI: 10
+  EvadeII: 30
+  FrostbiteI: 5
+  FrostbiteII: 5
+  WardenI: 5
+  WardenII: 5
+  WardenIII: 5
+  ThunderusBlowI: 10
+Enabled:
+# do you want the enchant to be enabled?
+  SpeedI: true
+  SpeedII: true
+  JumpI: true
+  JumpII: true
+  VisionaryI: true
+  NetherskinI: true
+  JacketI: true
+  JacketII: true
+  JacketIII: true
+  RageI: true
+  RageII: true
+  AquaticI: true
+  HasteI: true
+  HasteII: true
+  DecapitateI: true
+  ReplenishI: true
+  MultishotI: true
+  MultishotII: true
+  InfusionI: true
+  InfusionII: true
+  InquisitiveI: true
+  InquisitiveII: true
+  BlazingtouchI: true
+  IgnitionI: true
+  ParalyzeI: true
+  ParalyzeII: true
+  BlindnessI: true
+  BlindnessII: true
+  PoisonI: true
+  PoisonII: true
+  WitherI: true
+  WitherII: true
+  NauseaI: true
+  SlownessI: true
+  SlownessII: true
+  LifestealI: true
+  LifestealII: true
+  FrostyI: true
+  FlareI: true
+  CursedI: true
+  CursedII: true
+  AssassinateI: true
+  AssassinateII: true
+  CoinsI: true
+  CoinsII: true
+  FuryI: true
+  FuryII: true
+  FuryIII: true
+  HardenedI: true
+  HardenedII: true
+  HardenedIII: true
+  PenetrateI: true
+  PenetrateII: true
+  PenetrateIII: true
+  EvadeI: true
+  EvadeII: true
+  EvadeIII: true
+  NauseaII: true
+  RebornI: true
+  RebornII: true
+  RebornIII: true
+  WingsI: true
+  SaviorI: true
+  SaviorII: true
+  LeaderI: true
+  LeaderII: true
+  ResistanceI: true
+  ResistanceII: true
+  EnlightenedI: true
+  EnlightenedII: true
+  EnlightenedIII: true
+  CookI: true
+  CatchI: true
+  CatchII: true
+  FrostbiteI: true
+  FrostbiteII: true
+  HeadshotI: true
+  HeadshotII: true
+  WardenI: true
+  WardenII: true
+  WardenIII: true
+  EnderforgedI: true
+  EnderforgedII: true
+  EnderforgedIII: true
+  StealthI: true
+  StealthII: true
+  StealthIII: true
+  ThunderusBlowI: true
+MaxPower:
+# Max enchant number for each enchantment e.g. Speed:2 = SpeedI & SpeedII Reborn:3 = RebornI, RebornII & RebornIII
+  Speed: 2
+  Jump: 2
+  Rage: 2
+  Haste: 2
+  Assassinate: 2
+  Multishot: 2
+  Infusion: 2
+  Paralyze: 2
+  Blindness: 2
+  Poison: 2
+  Wither: 2
+  Nausea: 2
+  Slowness: 2
+  Lifesteal: 2
+  Cursed: 2
+  Reborn: 3
+  Inquisitive: 2
+  Coins: 2
+  Fury: 3
+  Hardened: 3
+  Penetrate: 3
+  Jacket: 3
+  Evade: 3
+  Saviour: 2
+  Leader: 2
+  Resistance: 2
+  Enlightened: 3
+  Catch: 2
+  Frostbite: 2
+  Headshot: 2
+  Warden: 3
+  Enderforged: 3
+  Stealth: 3
+Translate:
+# Do you want to rename an enchant?
+  Speed: Speed
+  Jump: Jump
+  Visionary: Visionary
+  Netherskin: Netherskin
+  Jacket: Jacket
+  Rage: Rage
+  Aquatic: Aquatic
+  Haste: Haste
+  Decapitate: Decapitate
+  Replenish: Replenish
+  Multishot: Multishot
+  Infusion: Infusion
+  Inquisitive: Inquisitive
+  Blazingtouch: Blazingtouch
+  Ignition: Ignition
+  Paralyze: Paralyze
+  Blindness: Blindness
+  Poison: Poison
+  Wither: Wither
+  Nausea: Nausea
+  Slowness: Slowness
+  Lifesteal: Lifesteal
+  Frosty: Frosty
+  Cursed: Cursed
+  Assassinate: Assassinate
+  Flare: Flare
+  Reborn: Reborn
+  Coins: Coins
+  Fury: Fury
+  Hardened: Hardened
+  Penetrate: Penetrate
+  Evade: Evade
+  Wings: Wings
+  Saviour: Saviour
+  Leader: Leader
+  Resistance: Resistance
+  Enlightened: Enlightened
+  Cook: Cook
+  Catch: Catch
+  Frostbite: Frostbite
+  Headshot: Headshot
+  Warden: Warden
+  Enderforged: Enderforged
+  Stealth: Stealth
+  ThunderusBlow: ThunderusBlow
+Description:
+# What do you want the description of an enchant to be in /ce list
+  SpeedI: Gives you an unlimited Speed 1 effect
+  SpeedII: Gives you an unlimited Speed 2 effect
+  JumpI: Gives you an unlimited Jump 1 effect
+  JumpII: Gives you an unlimited Jump 2 effect
+  JacketI: Gives you an extra 1/2 Heart of health per Armor
+  JacketII: Gives you an extra 1 Heart of health per Armor
+  JacketIII: Gives you an extra 1 1/2 Heart of health per Armor
+  CoinsI: Gives you 2 MobCoins instead of 1
+  CoinsII: Gives you 3 MobCoins instead of 1
+  CursedI: Gives your opponent Mining Fatuige  1 for 5 seconds
+  CursedII: Gives your opponent Mining Fatuige 2 for 5 seconds
+  AssassinateI: Gives you an unlimited Haste 1 effect
+  AssassinateII: Gives you an unlimited Haste 2 effect
+  NauseaI: Confuses your opponent
+  NauseaII: Confuses your opponent
+  HasteI: Gives you an unlimited Haste 1 effect
+  HasteII: Gives you an unlimited Haste 1 effect
+  PenetrateI: Deals extra armor damage
+  PenetrateII: Deals extra armor damage
+  PenetrateIII: Deals extra armor damage
+  EvadeI: Chance to dodge attacks
+  EvadeII: Chance to dodge attacks
+  EvadeIII: Chance to dodge attacks
+  ParalyzeI: Paralyzes your opponent for 1 second
+  ParalyzeII: Paralyzes your opponent for 2 seconds
+  SlownessI: Gives your opponent slowness 1 for 5 seconds
+  SlownessII: Gives your opponent slowness 2 for 5 seconds
+  RebornI: When you kill a player, you will get Absorption 1 Resistance 1 and Regeneration 1 potion effect for 10 seconds!
+  RebornII: When you kill a player, you will get Absorption 2 Resistance 2 and Regeneration 2 potion effect for 10 seconds!
+  RebornIII: When you kill a player, you will get Absorption 3 Resistance 3 and Regeneration 3 potion effect for 10 seconds!
+  BlindnessI: Blinds your opponent
+  BlindnessII: Blinds your opponent
+  InquisitiveI: Gives you Double the xp when killing a mob
+  InquisitiveII: Gives you Triple the xp when killing a mob
+  FuryI: Deals Extra damage with combos
+  FuryII: Deals Extra damage with combos
+  FuryIII: Deals Extra damage with combos
+  PoisonI: Gives your opponent Poison 1 for 5 seconds
+  PoisonII: Gives your opponent Poison 1 for 5 seconds
+  WitherI: Gives your opponent Wither 1 for 5 seconds
+  WitherII: Gives your opponent Wither 1 for 5 seconds
+  HardenedI: Gives your armor extra durability
+  HardenedII: Gives your armor extra durability
+  HardenedIII: Gives your armor extra durability
+  MultishotI: Shoots 2 arrows instead of 1
+  MultishotII: Shoots 3 arrows instead of 1
+  LifestealI: Chance to heal you as you attack
+  LifestealII: Chance to heal you as you attack
+  RageI: gives you an unlimited Strength 1 effect
+  RageII: gives you an unlimited Strength 2 effect
+  InfusionI: Digs a 3x3 Hole
+  InfusionII: Digs a 5x5 Hole
+  DecapitateI: Drops the players head upon death
+  VisionaryI: Gives you an unlimited nightvison 1 effect
+  IgnitionI: Chance to set your attacker on fire
+  ReplenishI: Replenishes your hunger
+  BlazingtouchI: Automatily smelts ores
+  AquaticI: Lets you breath underwater
+  FrostyI: Gives you a snow trail when you walk
+  FlareI: Chance for your arrows to explode
+  NetherskinI: Gives you an unlimited fire resistance 1 effect
+  WingsI: Allows you to fly in your territory
+  SaviorI: Gives nearby faction members regeneration 1.
+  SaviorII: Gives nearby faction members regeneration 2.
+  LeaderI: Gives nearby faction members haste 1.
+  LeaderII: Gives nearby faction members haste 2.
+  ResistanceI: Gives you an unlimited Resistance 1 effect.
+  ResistanceII: Gives you an unlimited Resistance 1 effect.
+  EnlightenedI: Chance to heal you 0.5 hearts when getting attacked.
+  EnlightenedII: Chance to heal you 1 heart when getting attacked.
+  EnlightenedIII: Chance to heal you 1.5 hearts when getting attacked.
+  CookI: When you catch a fish it will be automatically cooked.
+  CatchI: Instead of catching 1 fish you will catch 2 fish.
+  CatchII: Instead of catching 1 fish you will catch 3 fish.
+  FrostbiteI: 5% chance to freeze your target in ice for 5 seconds.
+  FrostbiteII: 5% chance to freeze your target in ice for 7 seconds.
+  HeadstotI: If you get a headshot with a bow, The damage doubles
+  HeadstotII: If you get a headshot with a bow, The damage Triples
+  WardenI: Chance to give you HasteI and give the enemy Mining FatuigeI for 10 seconds
+  WardenII: Chance to give you HasteII and give the enemy Mining FatuigeII for 10 seconds
+  WardenIII: Chance to give you HasteIII and give the enemy Mining FatuigeIII for 10 seconds
+  EnderforgedI: Teleports you to the block you click on when you shift+leftclick 50blocks max
+  EnderforgedII: Teleports you to the block you click on when you shift+leftclick 100blocks max
+  EnderforgedIII: Teleports you to the block you click on when you shift+leftclick 150blocks max
+  StealthI: Go invisible for 2 seconds shift+leftclick to enable
+  StealthII: Go invisible for 2 seconds shift+leftclick to enable
+  StealthIII: Go invisible for 2 seconds shift+leftclick to enable
+  ThunderusBlow: Smites your enemies

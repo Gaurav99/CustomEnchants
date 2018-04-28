@@ -1,0 +1,477 @@
+Options:
+  Title: '&c&lTinkerer' #Name of the Tinker GUI
+  AcceptTrade: '&a&lAccept Trade'
+  DeclineTrade: '&c&lDecline Trade'
+  Payment: Xp #Xp, XpLevels Vault
+  Item: EXP_BOTTLE
+Tinker:
+  Vanilla-Enchantments:
+    #Armor EnchantmentsOptions:
+  Title: '&c&lTinkerer' #Name of the Tinker GUI
+  AcceptTrade: '&a&lAccept Trade'
+  DeclineTrade: '&c&lDecline Trade'
+  Payment: Xp #Xp, XpLevels Vault
+  Item: EXP_BOTTLE
+Tinker:
+  Vanilla-Enchantments: # Add/Remove any VanillaEnchants you want to be avaulable in the Tinker Here
+    #Armor Enchantments
+    PROTECTION_ENVIRONMENTAL:
+      1: 20  #Value of enchant Protection 1
+      2: 24  #Value of enchant Protection 2
+      3: 28  #Value of enchant Protection 3
+      4: 32  #Value of enchant Protection 4
+    PROTECTION_FIRE:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    PROTECTION_EXPLOSIONS:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    PROTECTION_PROJECTILE:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    PROTECTION_FALL:
+      1: 6
+      2: 10
+      3: 14
+      4: 18
+    OXYGEN:
+      1: 6
+      2: 10
+      3: 14
+    WATER_WORKER:
+      1: 6
+    THORNS:
+      1: 26
+      2: 30
+      3: 34
+    DEPTH_STRIDER:
+      1: 20
+      2: 24
+      3: 28
+    FROST_WALKER:
+      1: 20
+      2: 24
+    VANISHING_CURSE:
+      1: 20
+    #Sword/Axe Enchantments
+    DAMAGE_ALL:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    DAMAGE_UNDEAD:
+      1: 6
+      2: 10
+      3: 14
+      4: 18
+    DAMAGE_ARTHROPODS:
+      1: 6
+      2: 10
+      3: 14
+      4: 18
+    KNOCKBACK:
+      1: 16
+      2: 20
+    FIRE_ASPECT:
+      1: 16
+      2: 20
+    LOOT_BONUS_MOBS:
+      1: 16
+      2: 20
+      3: 24
+    BINDING_CURSE:
+      1: 25
+    MENDING:
+      1: 25
+    SWEEPING:
+      1: 20
+      2: 24
+      3: 24
+    #Tool Enchantments
+    DIG_SPEED:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+      5: 32
+    SILK_TOUCH:
+      1: 25
+    DURABILITY:
+      1: 16
+      2: 20
+      3: 24
+    LOOT_BONUS_BLOCKS:
+      1: 16
+      2: 20
+      3: 24
+    #Bow Enchantments
+    ARROW_DAMAGE:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+      5: 32
+    ARROW_KNOCKBACK:
+      1: 16
+      2: 20
+    ARROW_FIRE:
+      1: 15
+    ARROW_INFINITE:
+      1: 20
+    #Fishing Rod Enchantments
+    LUCK:
+      1: 10
+      2: 15
+      3: 20
+    LURE:
+      1: 10
+      2: 15
+      3: 20
+  Custom-Enchantments: # Add/Remove any CustomEnchants you want to be avaulable in the Tinker Here
+    Speed:
+      1: 10
+      2: 15
+    Jump:
+      1: 10
+      2: 15
+    Jacket:
+      1: 15
+      2: 20
+      3: 25
+    Rage:
+      1: 10
+      2: 15
+    Haste:
+      1: 14
+      2: 18
+    Assassinate:
+      1: 14
+      2: 18
+    Multishot:
+      1: 10
+      2: 15
+    Infusion:
+      1: 20
+      2: 25
+    Inquisitive:
+      1: 10
+      2: 15
+    Paralyze:
+      1: 10
+      2: 14
+    Blindness:
+      1: 10
+      2: 14
+    Poison:
+      1: 10
+      2: 14
+    Wither:
+      1: 15
+      2: 20
+    Slowness:
+      1: 10
+      2: 14
+    Lifesteal:
+      1: 10
+      2: 14
+    Cursed:
+      1: 10
+      2: 14
+    Coins:
+      1: 10
+      2: 14
+    Fury:
+      1: 10
+      2: 14
+      3: 18
+    Hardened:
+      1: 10
+      2: 14
+      3: 18
+    Penetrate:
+      1: 10
+      2: 14
+      3: 18
+    Evade:
+      1: 10
+      2: 14
+      3: 18
+    Saviour:
+      1: 10
+      2: 14
+    Leader:
+      1: 10
+      2: 14
+    Resistance:
+      1: 10
+      2: 14
+    Enlightened:
+      1: 10
+      2: 14
+      3: 18
+    Catch:
+      1: 10
+      2: 14
+    Frostbite:
+      1: 10
+      2: 14
+    Cook:
+      1: 10
+    Wings:
+      1: 10
+    Flare:
+      1: 10
+    Nausea:
+      1: 10
+    Ignition:
+      1: 10
+    Replenish:
+      1: 14
+    Decapitate:
+      1: 14
+    Aquatic:
+      1: 10
+    Netherskin:
+      1: 10
+    Visionary:
+      1: 10
+    Frosty:
+      1: 15
+    Blazingtouch:
+      1: 15
+    PROTECTION_ENVIRONMENTAL:
+      1: 20  #Value of enchant Protection 1
+      2: 24  #Value of enchant Protection 2
+      3: 28  #Value of enchant Protection 3
+      4: 32  #Value of enchant Protection 4
+    PROTECTION_FIRE:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    PROTECTION_EXPLOSIONS:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    PROTECTION_PROJECTILE:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    PROTECTION_FALL:
+      1: 6
+      2: 10
+      3: 14
+      4: 18
+    OXYGEN:
+      1: 6
+      2: 10
+      3: 14
+    WATER_WORKER:
+      1: 6
+    THORNS:
+      1: 26
+      2: 30
+      3: 34
+    DEPTH_STRIDER:
+      1: 20
+      2: 24
+      3: 28
+    FROST_WALKER:
+      1: 20
+      2: 24
+    VANISHING_CURSE:
+      1: 20
+    #Sword/Axe Enchantments
+    DAMAGE_ALL:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+    DAMAGE_UNDEAD:
+      1: 6
+      2: 10
+      3: 14
+      4: 18
+    DAMAGE_ARTHROPODS:
+      1: 6
+      2: 10
+      3: 14
+      4: 18
+    KNOCKBACK:
+      1: 16
+      2: 20
+    FIRE_ASPECT:
+      1: 16
+      2: 20
+    LOOT_BONUS_MOBS:
+      1: 16
+      2: 20
+      3: 24
+    BINDING_CURSE:
+      1: 25
+    MENDING:
+      1: 25
+    SWEEPING:
+      1: 20
+      2: 24
+      3: 24
+    #Tool Enchantments
+    DIG_SPEED:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+      5: 32
+    SILK_TOUCH:
+      1: 25
+    DURABILITY:
+      1: 16
+      2: 20
+      3: 24
+    LOOT_BONUS_BLOCKS:
+      1: 16
+      2: 20
+      3: 24
+    #Bow Enchantments
+    ARROW_DAMAGE:
+      1: 16
+      2: 20
+      3: 24
+      4: 28
+      5: 32
+    ARROW_KNOCKBACK:
+      1: 16
+      2: 20
+    ARROW_FIRE:
+      1: 15
+    ARROW_INFINITE:
+      1: 20
+    #Fishing Rod Enchantments
+    LUCK:
+      1: 10
+      2: 15
+      3: 20
+    LURE:
+      1: 10
+      2: 15
+      3: 20
+  Custom-Enchantments:
+    Speed:
+      1: 10
+      2: 15
+    Jump:
+      1: 10
+      2: 15
+    Jacket:
+      1: 15
+      2: 20
+      3: 25
+    Rage:
+      1: 10
+      2: 15
+    Haste:
+      1: 14
+      2: 18
+    Assassinate:
+      1: 14
+      2: 18
+    Multishot:
+      1: 10
+      2: 15
+    Infusion:
+      1: 20
+      2: 25
+    Inquisitive:
+      1: 10
+      2: 15
+    Paralyze:
+      1: 10
+      2: 14
+    Blindness:
+      1: 10
+      2: 14
+    Poison:
+      1: 10
+      2: 14
+    Wither:
+      1: 15
+      2: 20
+    Slowness:
+      1: 10
+      2: 14
+    Lifesteal:
+      1: 10
+      2: 14
+    Cursed:
+      1: 10
+      2: 14
+    Coins:
+      1: 10
+      2: 14
+    Fury:
+      1: 10
+      2: 14
+      3: 18
+    Hardened:
+      1: 10
+      2: 14
+      3: 18
+    Penetrate:
+      1: 10
+      2: 14
+      3: 18
+    Evade:
+      1: 10
+      2: 14
+      3: 18
+    Saviour:
+      1: 10
+      2: 14
+    Leader:
+      1: 10
+      2: 14
+    Resistance:
+      1: 10
+      2: 14
+    Enlightened:
+      1: 10
+      2: 14
+      3: 18
+    Catch:
+      1: 10
+      2: 14
+    Frostbite:
+      1: 10
+      2: 14
+    Cook:
+      1: 10
+    Wings:
+      1: 10
+    Flare:
+      1: 10
+    Nausea:
+      1: 10
+    Ignition:
+      1: 10
+    Replenish:
+      1: 14
+    Decapitate:
+      1: 14
+    Aquatic:
+      1: 10
+    Netherskin:
+      1: 10
+    Visionary:
+      1: 10
+    Frosty:
+      1: 15
+    Blazingtouch:
+      1: 15
