@@ -12,26 +12,29 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
-import org.jetbrains.annotations.NotNull;
+
 
 import java.io.File;
 import java.util.ArrayList;
 
 public class CrystalUse implements org.bukkit.event.Listener {
     private static Main plugin;
+    
+    YamlConfiguration enchants;
+    YamlConfiguration messages;
 
     public CrystalUse(Main pl) {
         plugin = pl;
+        File customenchants = new File("plugins//CustomEnchants//CustomEnchants.yml");
+        enchants = YamlConfiguration.loadConfiguration(customenchants);
+        File msg = new File("plugins//CustomEnchants//Messages.yml");
+        messages = YamlConfiguration.loadConfiguration(msg);
     }
 
     @EventHandler
-    public void onPlayerInteract(@NotNull PlayerInteractEvent e) {
+    public void onPlayerInteract(PlayerInteractEvent e) {
         ItemStack item = e.getItem();
         if (Utils.isCrystal(item)) {
-            File customenchants = new File("plugins//CustomEnchants//CustomEnchants.yml");
-            YamlConfiguration enchants = YamlConfiguration.loadConfiguration(customenchants);
-            File msg = new File("plugins//CustomEnchants//Messages.yml");
-            YamlConfiguration messages = YamlConfiguration.loadConfiguration(msg);
             org.bukkit.event.block.Action a = e.getAction();
             if ((a == Action.PHYSICAL) || (item == null) || (item.getType() == Material.AIR)) {
                 return;
@@ -318,7 +321,7 @@ public class CrystalUse implements org.bukkit.event.Listener {
     }
 
     @EventHandler
-    public void onPickItem(@NotNull InventoryClickEvent e) {
+    public void onPickItem(InventoryClickEvent e) {
         if (e.getInventory().getTitle() != null) {
             if (e.getInventory().getTitle().contains(Utils.format("&8CustomEnchants"))) {
                 e.setCancelled(true);
